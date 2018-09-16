@@ -46,7 +46,7 @@ EndFunc
 Func scanStart()
 	GUICtrlSetData($FenetrePrincipale_Bouton1, "STOP")
 
-	For $i = 141 To 482 Step 1
+	For $i = 0 To 482 Step 1
 		scanImg($i & "")
 	Next
 
